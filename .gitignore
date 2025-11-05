@@ -1,0 +1,9 @@
+# 시스템 잡파일
+.DS_Store
+Thumbs.db
+
+# 노트북 캐시
+*.ipynb_checkpoints
+
+# 임시폴더
+tmp/
