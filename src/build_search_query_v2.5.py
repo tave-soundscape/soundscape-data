@@ -161,13 +161,13 @@ def quick_validate(df: pd.DataFrame) -> None:
         )
         bad_bpm = ~(df["bpm_min"] <= df["bpm_max"])
         if bad_energy.any():
-            print(f"⚠️  Energy range warnings on rows: {df.index[bad_energy].tolist()}")
+            print(f"  Energy range warnings on rows: {df.index[bad_energy].tolist()}")
         if bad_bpm.any():
-            print(f"⚠️  BPM range warnings on rows: {df.index[bad_bpm].tolist()}")
+            print(f"  BPM range warnings on rows: {df.index[bad_bpm].tolist()}")
         if not bad_energy.any() and not bad_bpm.any():
-            print("✅ quick_validate: OK")
+            print(" quick_validate: OK")
     except Exception as e:
-        print(f"⚠️  quick_validate skipped: {e}")
+        print(f"  quick_validate skipped: {e}")
 
 
 def main():
@@ -178,7 +178,7 @@ def main():
 
     df = transform(args.in_path, args.out_path)
     quick_validate(df)
-    print("✅ Done.")
+    print(" Done.")
     print(f" - Input : {args.in_path}")
     print(f" - Output: {args.out_path}")
     print(f" - Rows  : {len(df)}")
