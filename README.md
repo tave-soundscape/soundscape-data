@@ -28,5 +28,4 @@ build_search_query_v2.5.py → search query 생성
 
 ##  규칙
 - CSV/JSON은 `datasets/` 폴더 안에서만 관리
-- 코드(`src/`, `notebooks/`)와 문서(`docs/`)는 항상 같이 업데이트
 - 버전명 통일: `v1`, `v2`, `v2.5`, `v3` (하이픈X)
