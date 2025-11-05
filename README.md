@@ -1,4 +1,4 @@
-# soundscape-data
+## soundscape-data
 Soundscape 팀의 데이터/규칙 저장소
 
 ## 폴더
