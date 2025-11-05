@@ -13,13 +13,13 @@
 
 ##  진행상황
 sampledata_research.md
-↓
+->
 sample_input_v2.csv/json
-↓
+->
 EDA_sampledata.ipynb
-↓
+->
 rule_mapping__v2.5.csv
-↓
+->
 build_search_query_v2.5.py → search query 생성
 
 ##  버전 관리
