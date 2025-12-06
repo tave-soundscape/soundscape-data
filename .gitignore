@@ -7,3 +7,5 @@ Thumbs.db
 
 # 임시폴더
 tmp/
+
+.env
