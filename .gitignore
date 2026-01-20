@@ -2,10 +2,15 @@
 .DS_Store
 Thumbs.db
 
-# 노트북 캐시
+# Jupyter
+.ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# 임시폴더
-tmp/
+# Python
+__pycache__/
+*.pyc
 
-.env
+# 임시 / 실험 결과
+tmp/
+output/
+results/
